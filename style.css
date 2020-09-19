@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    background-color: #151D25;
+}
+
+.main.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-container{
+    position: relative;
+    background-color: #1a2029;
+    color: #FFF;
+    width: 40%;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 0 30px 0 30px;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts{
+    display: flex;
+}
+
+.circles{
+    background-color: #a058df;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+    border: 5px solid #151a22;
+}
+
+.second{
+    background-color: #586fdf;
+}
+
+.third{
+    background-color: #c97c4c;
+}
+
+.btn{
+    margin-top: 30px;
+    display: flex;
+}
+
+.link{
+    margin-left: 10px;
+    color: #373e75;
+}
+
+.right-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    background-color: #151a22;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media(max-width: 700px){
+    .content-container{
+        width: 70%;
+        padding: 0 10px 0 10px;
+    }
+
+    .circles{
+        width: 30px;
+        height: 30px;
+    }
+
+    .head{
+        font-size: 14px;
+    }
+
+    .right-btn{
+        top: 10px;
+        right: 20px;
+        padding: 5px;
+    }
+}
